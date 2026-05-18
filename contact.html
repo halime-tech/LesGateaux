@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Les Gâteaux</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Les Gâteaux</h1>
+    <p class="tagline">Sweetness and passion in every bite</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+    <p class="intro">We’d love to hear from you! Fill out the form below and we’ll get back to you as soon as possible.</p>
+
+    <div class="contact-container">
+      <form id="contactForm" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div id="thankYouMessage" class="thank-you-message"></div>
+
+      <div class="contact-info">
+        <h3>Reach Us</h3>
+        <p><i class="fas fa-phone"></i> Phone: +250 7 92 95 76 84</p>
+        <p><i class="fas fa-envelope"></i> Email: contact@lesgateaux.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Location:Musanze, Kigali, Rwanda</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Les Gâteaux. All rights reserved.</p>
+	 <div class="socials">
+            <a href="https://www.facebook.com/Les Gateaux" target="_blank><i class="fab fa-facebook"></i>facebook</a>
+            <a href="https://www.instagram.com/lesgateaux50" target="_blank"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="https://wa.me/250792957684" target="_blank"><i class="fab fa-whatsapp"></i>whatsapp</a>
+     </div>
+  </footer>
+</body>
+</html>
